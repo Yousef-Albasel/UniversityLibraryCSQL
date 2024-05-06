@@ -44,7 +44,8 @@ namespace UniversityLibraryFormsCSQL
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            AdminDashboard adminDashboard = new AdminDashboard();
+            adminDashboard.Show();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
