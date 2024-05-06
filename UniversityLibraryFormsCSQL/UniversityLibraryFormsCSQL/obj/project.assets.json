@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\youse\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\abdua\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CS2024\\Database\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+      "projectUniqueName": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
       "projectName": "UniversityLibraryFormsCSQL",
-      "projectPath": "F:\\CS2024\\Database\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
-      "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-      "outputPath": "F:\\CS2024\\Database\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
+      "projectPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+      "packagesPath": "C:\\Users\\abdua\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\abdua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
