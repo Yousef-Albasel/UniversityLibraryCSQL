@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {}
+    "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {
+    "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+        "projectUniqueName": "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
         "projectName": "UniversityLibraryFormsCSQL",
-        "projectPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
-        "packagesPath": "C:\\Users\\abdua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
+        "projectPath": "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+        "packagesPath": "C:\\Users\\Moaid Hashem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abdua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Moaid Hashem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
