@@ -75,7 +75,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "UserDashboard";
-            Text = "Form3";
+            Text = "UseDashboard";
             ResumeLayout(false);
         }
 
