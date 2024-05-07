@@ -115,7 +115,13 @@ namespace UniversityLibraryFormsCSQL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (isStudent)
+            {
+
+                UserDashboard form3 = new UserDashboard();
+                form3.Show();
+            }
+
         }
     }
 }

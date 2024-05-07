@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {}
+    "C:\\Users\\IT\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {
+    "C:\\Users\\IT\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+        "projectUniqueName": "C:\\Users\\IT\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
         "projectName": "UniversityLibraryFormsCSQL",
-        "projectPath": "C:\\Users\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
-        "packagesPath": "C:\\Users\\farah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farah\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
+        "projectPath": "C:\\Users\\IT\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+        "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IT\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\farah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
