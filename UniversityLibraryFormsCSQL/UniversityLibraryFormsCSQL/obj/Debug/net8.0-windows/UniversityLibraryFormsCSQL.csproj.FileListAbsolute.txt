@@ -65,3 +65,27 @@ C:\Users\Moaid Hashem\source\repos\Last\UniversityLibraryFormsCSQL\UniversityLib
 C:\Users\Moaid Hashem\source\repos\Last\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
 C:\Users\Moaid Hashem\source\repos\Last\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.genruntimeconfig.cache
 C:\Users\Moaid Hashem\source\repos\Last\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\ref\UniversityLibraryFormsCSQL.dll
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.exe
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.deps.json
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.runtimeconfig.json
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.dll
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddBook.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AdminDashboard.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.BrowseBooks.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Form1.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Form2.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Properties.Resources.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateBook.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateUserDetails.resources
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.GenerateResource.cache
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AssemblyInfoInputs.cache
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AssemblyInfo.cs
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.CoreCompileInputs.cache
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.sourcelink.json
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.dll
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\refint\UniversityLibraryFormsCSQL.dll
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.genruntimeconfig.cache
+C:\Users\farah\Source\Repos\Yousef-Albasel\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\ref\UniversityLibraryFormsCSQL.dll

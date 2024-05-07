@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Moaid Hashem\\.nuget\\packages\\": {}
+    "C:\\Users\\farah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+      "projectUniqueName": "C:\\Users\\farah\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
       "projectName": "UniversityLibraryFormsCSQL",
-      "projectPath": "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
-      "packagesPath": "C:\\Users\\Moaid Hashem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moaid Hashem\\source\\repos\\Last\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
+      "projectPath": "C:\\Users\\farah\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+      "packagesPath": "C:\\Users\\farah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\farah\\Source\\Repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Moaid Hashem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\farah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

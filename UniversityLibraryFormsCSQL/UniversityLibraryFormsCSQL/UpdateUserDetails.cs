@@ -15,6 +15,18 @@ namespace UniversityLibraryFormsCSQL
         public UpdateUserDetails()
         {
             InitializeComponent();
+
+            textBox3.PasswordChar = '*';
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Your Information has Changed Successfully");
+
+            if (dialog == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
     }
 }
