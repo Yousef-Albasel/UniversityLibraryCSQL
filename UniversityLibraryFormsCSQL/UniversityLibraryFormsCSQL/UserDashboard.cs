@@ -12,9 +12,11 @@ namespace UniversityLibraryFormsCSQL
 {
     public partial class UserDashboard : Form
     {
+        int userID = UserContext.UserID;
         public UserDashboard()
         {
             InitializeComponent();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -24,7 +26,7 @@ namespace UniversityLibraryFormsCSQL
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show($"{userID}");
         }
     }
 }
