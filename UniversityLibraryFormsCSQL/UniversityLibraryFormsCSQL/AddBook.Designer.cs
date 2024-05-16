@@ -57,7 +57,7 @@
             label2.Location = new Point(64, 116);
             label2.Margin = new Padding(7, 0, 7, 0);
             label2.Name = "label2";
-            label2.Size = new Size(144, 29);
+            label2.Size = new Size(116, 22);
             label2.TabIndex = 1;
             label2.Text = "Book Name";
             // 
@@ -70,7 +70,7 @@
             label3.Location = new Point(64, 198);
             label3.Margin = new Padding(7, 0, 7, 0);
             label3.Name = "label3";
-            label3.Size = new Size(127, 29);
+            label3.Size = new Size(103, 22);
             label3.TabIndex = 2;
             label3.Text = "Language";
             // 
@@ -83,7 +83,7 @@
             label4.Location = new Point(416, 116);
             label4.Margin = new Padding(7, 0, 7, 0);
             label4.Name = "label4";
-            label4.Size = new Size(116, 29);
+            label4.Size = new Size(95, 22);
             label4.TabIndex = 3;
             label4.Text = "Category";
             label4.Click += label4_Click;
@@ -97,7 +97,7 @@
             label5.Location = new Point(416, 275);
             label5.Margin = new Padding(7, 0, 7, 0);
             label5.Name = "label5";
-            label5.Size = new Size(200, 29);
+            label5.Size = new Size(161, 22);
             label5.TabIndex = 4;
             label5.Text = "Publication Year";
             label5.Click += label5_Click;
@@ -111,7 +111,7 @@
             label6.Location = new Point(416, 198);
             label6.Margin = new Padding(7, 0, 7, 0);
             label6.Name = "label6";
-            label6.Size = new Size(70, 29);
+            label6.Size = new Size(55, 22);
             label6.TabIndex = 4;
             label6.Text = "ISBN";
             // 
@@ -124,7 +124,7 @@
             label7.Location = new Point(64, 275);
             label7.Margin = new Padding(7, 0, 7, 0);
             label7.Name = "label7";
-            label7.Size = new Size(92, 29);
+            label7.Size = new Size(73, 22);
             label7.TabIndex = 5;
             label7.Text = "Author";
             label7.Click += label7_Click;
@@ -138,7 +138,7 @@
             label8.Location = new Point(66, 359);
             label8.Margin = new Padding(7, 0, 7, 0);
             label8.Name = "label8";
-            label8.Size = new Size(146, 29);
+            label8.Size = new Size(114, 22);
             label8.TabIndex = 6;
             label8.Text = "Availability ";
             // 
@@ -146,8 +146,9 @@
             // 
             textBox1.Location = new Point(64, 141);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(197, 38);
+            textBox1.Size = new Size(197, 32);
             textBox1.TabIndex = 7;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // radioButton1
             // 
@@ -156,7 +157,7 @@
             radioButton1.ForeColor = SystemColors.Control;
             radioButton1.Location = new Point(416, 356);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(144, 36);
+            radioButton1.Size = new Size(117, 29);
             radioButton1.TabIndex = 13;
             radioButton1.TabStop = true;
             radioButton1.Text = "Available";
@@ -172,40 +173,41 @@
             button1.TabIndex = 15;
             button1.Text = "Add Book";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox2
             // 
             textBox2.Location = new Point(416, 141);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(197, 38);
+            textBox2.Size = new Size(197, 32);
             textBox2.TabIndex = 16;
             // 
             // textBox3
             // 
             textBox3.Location = new Point(64, 223);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(197, 38);
+            textBox3.Size = new Size(197, 32);
             textBox3.TabIndex = 17;
             // 
             // textBox4
             // 
             textBox4.Location = new Point(64, 300);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(197, 38);
+            textBox4.Size = new Size(197, 32);
             textBox4.TabIndex = 18;
             // 
             // textBox5
             // 
             textBox5.Location = new Point(416, 223);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(197, 38);
+            textBox5.Size = new Size(197, 32);
             textBox5.TabIndex = 19;
             // 
             // textBox6
             // 
             textBox6.Location = new Point(416, 300);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(197, 38);
+            textBox6.Size = new Size(197, 32);
             textBox6.TabIndex = 20;
             // 
             // radioButton2
@@ -215,7 +217,7 @@
             radioButton2.ForeColor = SystemColors.Control;
             radioButton2.Location = new Point(557, 356);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(193, 36);
+            radioButton2.Size = new Size(157, 29);
             radioButton2.TabIndex = 21;
             radioButton2.TabStop = true;
             radioButton2.Text = "Not Available";
@@ -235,7 +237,7 @@
             // 
             // AddBook
             // 
-            AutoScaleDimensions = new SizeF(16F, 32F);
+            AutoScaleDimensions = new SizeF(12F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.BG;
             BackgroundImageLayout = ImageLayout.Stretch;

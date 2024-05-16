@@ -23,8 +23,6 @@ C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibrary
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.dll
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AdminDashboard.resources
-C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Form1.resources
-C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Form2.resources
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Properties.Resources.resources
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.GenerateResource.cache
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.GeneratedMSBuildEditorConfig.editorconfig
@@ -147,3 +145,14 @@ F:\Database Project\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityL
 F:\Database Project\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\Database Project\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.AssemblyReference.cache
 F:\Database Project\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\Universi.91A1F8FF.Up2Date
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.AssemblyReference.cache
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Login.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Register.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UserDashboard.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\Universi.91A1F8FF.Up2Date
