@@ -33,6 +33,8 @@
             button3 = new Button();
             button4 = new Button();
             pictureBox1 = new PictureBox();
+            button5 = new Button();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -42,7 +44,7 @@
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(76, 217);
+            button1.Location = new Point(76, 144);
             button1.Name = "button1";
             button1.Size = new Size(234, 50);
             button1.TabIndex = 1;
@@ -56,7 +58,7 @@
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.Control;
-            button2.Location = new Point(463, 217);
+            button2.Location = new Point(463, 144);
             button2.Name = "button2";
             button2.Size = new Size(234, 50);
             button2.TabIndex = 2;
@@ -70,11 +72,11 @@
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.Control;
-            button3.Location = new Point(76, 327);
+            button3.Location = new Point(76, 236);
             button3.Name = "button3";
             button3.Size = new Size(234, 50);
             button3.TabIndex = 3;
-            button3.Text = "Browse Books";
+            button3.Text = "Delete Book";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
@@ -103,6 +105,34 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.Highlight;
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.ForeColor = SystemColors.Control;
+            button5.Location = new Point(76, 327);
+            button5.Name = "button5";
+            button5.Size = new Size(234, 50);
+            button5.TabIndex = 6;
+            button5.Text = "Delete User";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.BackColor = SystemColors.Highlight;
+            button6.FlatStyle = FlatStyle.Popup;
+            button6.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button6.ForeColor = SystemColors.Control;
+            button6.Location = new Point(463, 236);
+            button6.Name = "button6";
+            button6.Size = new Size(234, 50);
+            button6.TabIndex = 7;
+            button6.Text = "Browse Books";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
+            // 
             // AdminDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -110,6 +140,8 @@
             BackgroundImage = Properties.Resources.BG;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(777, 460);
+            Controls.Add(button6);
+            Controls.Add(button5);
             Controls.Add(pictureBox1);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -129,5 +161,7 @@
         private Button button3;
         private Button button4;
         private PictureBox pictureBox1;
+        private Button button5;
+        private Button button6;
     }
 }

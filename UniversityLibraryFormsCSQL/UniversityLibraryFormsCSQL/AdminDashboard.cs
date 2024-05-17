@@ -33,8 +33,8 @@ namespace UniversityLibraryFormsCSQL
 
         private void button3_Click(object sender, EventArgs e)
         {
-            BrowseBooks browse = new BrowseBooks();
-            browse.Show();
+            DeleteBook delBook = new DeleteBook();
+            delBook.Show();
 
         }
 
@@ -48,6 +48,18 @@ namespace UniversityLibraryFormsCSQL
         private void AdminDashboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DeleteUser delUser = new DeleteUser();
+            delUser.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            BrowseBooks broBooks=new BrowseBooks(); 
+            broBooks.Show();
         }
     }
 }

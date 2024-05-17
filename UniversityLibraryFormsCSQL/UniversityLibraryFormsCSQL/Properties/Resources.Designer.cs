@@ -113,6 +113,26 @@ namespace UniversityLibraryFormsCSQL.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Delete_Book {
+            get {
+                object obj = ResourceManager.GetObject("Delete Book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Delete_User {
+            get {
+                object obj = ResourceManager.GetObject("Delete User", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Login {
             get {
                 object obj = ResourceManager.GetObject("Login", resourceCulture);
@@ -146,6 +166,16 @@ namespace UniversityLibraryFormsCSQL.Properties {
         internal static System.Drawing.Bitmap Update_User {
             get {
                 object obj = ResourceManager.GetObject("Update User", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Dashboard {
+            get {
+                object obj = ResourceManager.GetObject("User Dashboard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
