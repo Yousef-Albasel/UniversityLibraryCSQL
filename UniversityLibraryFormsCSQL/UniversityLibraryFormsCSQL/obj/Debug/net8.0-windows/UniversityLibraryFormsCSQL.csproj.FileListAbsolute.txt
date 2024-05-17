@@ -190,3 +190,7 @@ F:\Database Project\newClone\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\Un
 F:\Database Project\newClone\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
 F:\Database Project\newClone\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.genruntimeconfig.cache
 F:\Database Project\newClone\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\ref\UniversityLibraryFormsCSQL.dll
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.SelectBook.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddAuthor.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddCategory.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddPublisher.resources

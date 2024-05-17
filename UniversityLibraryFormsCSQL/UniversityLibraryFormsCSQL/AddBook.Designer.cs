@@ -26,6 +26,9 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        private System.Windows.Forms.Button btnAddAuthor;
+        private System.Windows.Forms.Button btnAddPublisher;
+        private System.Windows.Forms.Button btnAddCategory;
         private void InitializeComponent()
         {
             label2 = new Label();
@@ -45,6 +48,9 @@
             CategoryCombo = new ComboBox();
             AuthorCombo = new ComboBox();
             PublisherCombo = new ComboBox();
+            btnAddAuthor = new Button();
+            btnAddPublisher = new Button();
+            btnAddCategory = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -242,6 +248,36 @@
             PublisherCombo.Size = new Size(197, 32);
             PublisherCombo.TabIndex = 25;
             // 
+            // btnAddAuthor
+            // 
+            btnAddAuthor.Location = new Point(439, 324);
+            btnAddAuthor.Name = "btnAddAuthor";
+            btnAddAuthor.Size = new Size(197, 36);
+            btnAddAuthor.TabIndex = 0;
+            btnAddAuthor.Text = "Add Author";
+            btnAddAuthor.UseVisualStyleBackColor = true;
+            btnAddAuthor.Click += btnAddAuthor_Click;
+            // 
+            // btnAddPublisher
+            // 
+            btnAddPublisher.Location = new Point(439, 366);
+            btnAddPublisher.Name = "btnAddPublisher";
+            btnAddPublisher.Size = new Size(197, 32);
+            btnAddPublisher.TabIndex = 1;
+            btnAddPublisher.Text = "Add Publisher";
+            btnAddPublisher.UseVisualStyleBackColor = true;
+            btnAddPublisher.Click += btnAddPublisher_Click;
+            // 
+            // btnAddCategory
+            // 
+            btnAddCategory.Location = new Point(439, 404);
+            btnAddCategory.Name = "btnAddCategory";
+            btnAddCategory.Size = new Size(197, 32);
+            btnAddCategory.TabIndex = 2;
+            btnAddCategory.Text = "Add Category";
+            btnAddCategory.UseVisualStyleBackColor = true;
+            btnAddCategory.Click += btnAddCategory_Click;
+            // 
             // AddBook
             // 
             AutoScaleDimensions = new SizeF(12F, 24F);
@@ -250,6 +286,9 @@
             BackgroundImage = Properties.Resources.BG;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(782, 496);
+            Controls.Add(btnAddAuthor);
+            Controls.Add(btnAddPublisher);
+            Controls.Add(btnAddCategory);
             Controls.Add(PublisherCombo);
             Controls.Add(AuthorCombo);
             Controls.Add(CategoryCombo);
