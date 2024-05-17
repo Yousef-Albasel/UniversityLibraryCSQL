@@ -194,3 +194,4 @@ C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibrary
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddAuthor.resources
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddCategory.resources
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddPublisher.resources
+C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateUserINFO.resources
