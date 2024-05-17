@@ -8,29 +8,86 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace UniversityLibraryFormsCSQL
 {
     public partial class AddBook : Form
     {
-        string connString = ConnectionStringHelper.ConnectionString;
+        string connString = "Data Source=DESKTOP-BC6SQGP\\SQLEXPRESS;Initial Catalog = UniversityLibrary; Integrated Security = True;";
         public AddBook()
         {
             InitializeComponent();
-            List<string> categories = FetchCategoriesFromDatabase("BOOK_CATEGORY","CATEGORY");
-            foreach (var category in categories)
-            {
-                CategoryCombo.Items.Add(category);
-            }
-            List<string> authors = FetchCategoriesFromDatabase("AUTHOR","A_FIRST_NAME");
+            LoadCategories();
+            LoadAuthors();
+            LoadPublishers();
+        }
+
+        private void btnAddAuthor_Click(object sender, EventArgs e)
+        {
+            AddAuthor addAuthorForm = new AddAuthor();
+            addAuthorForm.FormClosed += new FormClosedEventHandler(AddAuthorForm_FormClosed);
+            addAuthorForm.ShowDialog();
+        }
+
+        private void btnAddPublisher_Click(object sender, EventArgs e)
+        {
+            AddPublisher addPublisherForm = new AddPublisher();
+            addPublisherForm.FormClosed += new FormClosedEventHandler(AddPublisherForm_FormClosed);
+            addPublisherForm.ShowDialog();
+        }
+
+        private void btnAddCategory_Click(object sender, EventArgs e)
+        {
+            AddCategory addCategoryForm = new AddCategory();
+            addCategoryForm.FormClosed += new FormClosedEventHandler(AddCategoryForm_FormClosed);
+            addCategoryForm.ShowDialog();
+        }
+
+        private void AddAuthorForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            AuthorCombo.Items.Clear();
+            LoadAuthors();
+        }
+
+        private void AddPublisherForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PublisherCombo.Items.Clear();
+            LoadPublishers();
+        }
+
+        private void AddCategoryForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            CategoryCombo.Items.Clear();
+            LoadCategories();
+        }
+
+        private void LoadAuthors()
+        {
+            AuthorCombo.Items.Clear();
+            List<string> authors = FetchCategoriesFromDatabase("AUTHOR", "A_FIRST_NAME");
             foreach (var author in authors)
             {
                 AuthorCombo.Items.Add(author);
             }
-            List<string> publishers = FetchCategoriesFromDatabase("PUBLISHER","PUBLISHER_NAME");
+            AuthorCombo.Items.Add("Add New Author...");
+        }
+
+        private void LoadPublishers()
+        {
+            List<string> publishers = FetchCategoriesFromDatabase("PUBLISHER", "PUBLISHER_NAME");
             foreach (var publisher in publishers)
             {
                 PublisherCombo.Items.Add(publisher);
+            }
+        }
+
+        private void LoadCategories()
+        {
+            List<string> categories = FetchCategoriesFromDatabase("BOOK_CATEGORY", "CATEGORY");
+            foreach (var category in categories)
+            {
+                CategoryCombo.Items.Add(category);
             }
         }
 
@@ -80,39 +137,28 @@ namespace UniversityLibraryFormsCSQL
             string bookName = textBox1.Text; // Book name
             string language = textBox3.Text; // Language
             string isbnStr = textBox5.Text;     // ISBN
-            string category = CategoryCombo.Text; // Category
             string authorFName = AuthorCombo.Text;   // Author FName
             string publisherStr = PublisherCombo.Text; // Publisher
 
             // Validate input
             if (string.IsNullOrWhiteSpace(bookName) ||
-                string.IsNullOrWhiteSpace(category) ||
                 string.IsNullOrWhiteSpace(language) ||
                 string.IsNullOrWhiteSpace(authorFName) ||
                 string.IsNullOrWhiteSpace(isbnStr) ||
-                string.IsNullOrWhiteSpace(publisherStr))
+                string.IsNullOrWhiteSpace(publisherStr) ||
+                CategoryCombo.SelectedIndex == -1) // Ensure a category is selected
             {
-                MessageBox.Show("Please fill in all fields.");
+                MessageBox.Show("Please fill in all fields and select a category.");
                 return;
             }
 
-            //if (!int.TryParse(authorFName, out int authorId) || authorId <= 0)
-            //{
-            //    MessageBox.Show("Invalid author ID.");
-            //    return;
-            //}
+            string category = CategoryCombo.SelectedItem.ToString(); // Retrieve selected category
 
             if (!long.TryParse(isbnStr, out long isbn) || isbn <= 0)
             {
                 MessageBox.Show("Invalid ISBN.");
                 return;
             }
-
-            //if (!int.TryParse(publisherIdStr, out int publisherId) || publisherId <= 0)
-            //{
-            //    MessageBox.Show("Invalid publisher ID.");
-            //    return;
-            //}
 
             // Determine availability based on radio button selection
             bool? availability = null; // Use nullable bool
@@ -129,8 +175,8 @@ namespace UniversityLibraryFormsCSQL
             // Connection string for your database
             string connectionString = connString;
             // SQL INSERT command
-            string sql = "INSERT INTO BOOKS (BOOK_NAME, LANGUAGE, AUTHOR_ID, ISBN, PUBLISHER_ID, AVAILABILITY) " +
-                         "VALUES (@BookName, @Language, @Author_ID, @ISBN, @PUBLISHER_ID, @Availability)";
+            string sql = "INSERT INTO BOOKS (BOOK_NAME, LANGUAGE, AUTHOR_ID, ISBN, PUBLISHER_ID, CATEGORY, AVAILABILITY) " +
+                         "VALUES (@BookName, @Language, @Author_ID, @ISBN, @PUBLISHER_ID, @Category, @Availability)";
 
             // Using statement to automatically close connection
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -166,30 +212,18 @@ namespace UniversityLibraryFormsCSQL
                 {
                     MessageBox.Show($"Error fetching publisher ID: {ex.Message}");
                 }
+
                 if (authorId.HasValue && publisherId.HasValue)
                 {
-
                     // Add parameters
                     command.Parameters.AddWithValue("@BookName", bookName);
                     command.Parameters.AddWithValue("@Language", language);
                     command.Parameters.AddWithValue("@Author_ID", authorId);
                     command.Parameters.AddWithValue("@PUBLISHER_ID", publisherId);
+                    command.Parameters.AddWithValue("@Category", category); // Add category parameter
                     command.Parameters.AddWithValue("@ISBN", isbn);
                     command.Parameters.AddWithValue("@Availability", availability);
 
-
-                    string bookCategorySql = "INSERT INTO BOOK_CATEGORY (CATEGORY, ISPN) VALUES (@Category, @ISPN)";
-                    SqlCommand bookCategoryCommand = new SqlCommand(bookCategorySql, connection);
-                    bookCategoryCommand.Parameters.AddWithValue("@Category", category);
-                    bookCategoryCommand.Parameters.AddWithValue("@ISPN", isbn);
-                    try
-                    {
-                        int CategotyCommand = Convert.ToInt32(bookCategoryCommand.ExecuteScalar());
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Error Adding book to Category: {ex.Message}");
-                    }
                     // Execute command
                     int rowsAffected = command.ExecuteNonQuery();
 
@@ -206,12 +240,13 @@ namespace UniversityLibraryFormsCSQL
             }
         }
 
+
         private void CategoryCombo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private List<string> FetchCategoriesFromDatabase(string table,string column)
+        private List<string> FetchCategoriesFromDatabase(string table, string column)
         {
             List<string> categories = new List<string>();
 
@@ -246,6 +281,4 @@ namespace UniversityLibraryFormsCSQL
 
         }
     }
-
-
 }

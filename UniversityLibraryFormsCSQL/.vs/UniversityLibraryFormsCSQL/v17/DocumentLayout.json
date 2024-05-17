@@ -1,53 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\",
+  "WorkspaceRootPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|f:\\database project\\newclone\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\connectionstringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\connectionstringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|f:\\database project\\newclone\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\selectbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\selectbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\browsebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\browsebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addauthor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addauthor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\updateuserdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\updateuserdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addpublisher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addpublisher.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\updateuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\updateuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|c:\\users\\abdua\\onedrive\\documents\\github\\universitylibrarycsql\\universitylibraryformscsql\\universitylibraryformscsql\\addcategory.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\addcategory.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\browsebooks.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\browsebooks.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\browsebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\browsebooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Database Project\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\selectbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\selectbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\updateuserdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\updateuserdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\updateuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\updateuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\browsebooks.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\browsebooks.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\universitylibraryformscsql\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B0E903-FC45-484D-8D57-E2617B7B2134}|UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj|solutionrelative:universitylibraryformscsql\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,57 +101,198 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConnectionStringHelper.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\ConnectionStringHelper.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\ConnectionStringHelper.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\ConnectionStringHelper.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\ConnectionStringHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:31:48.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddBook.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.Designer.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddBook.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.Designer.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddBook.Designer.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAIwBYBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:00:05.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddPublisher.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddPublisher.Designer.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddPublisher.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddPublisher.Designer.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddPublisher.Designer.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAiwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:55:42.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddCategory.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddCategory.Designer.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddCategory.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddCategory.Designer.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddCategory.Designer.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAMwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:51:22.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddAuthor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddAuthor.Designer.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddAuthor.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddAuthor.Designer.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddAuthor.Designer.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAswFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:46:03.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddAuthor.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddAuthor.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddAuthor.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddAuthor.cs",
+              "ViewState": "AQIAADAAAAAAm5mZmZn5v1MAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:41:12.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddAuthor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddAuthor.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddAuthor.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddAuthor.cs [Design]",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddAuthor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:41:09.645Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCategory.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddCategory.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddCategory.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddCategory.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddCategory.cs",
+              "ViewState": "AQIAAEUAAACg//////8hwFQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:37:55.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddCategory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddCategory.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddCategory.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddCategory.cs [Design]",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddCategory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:37:53.102Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddPublisher.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddPublisher.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddPublisher.cs",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddPublisher.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:37:30.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddPublisher.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddPublisher.cs",
+              "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddPublisher.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddPublisher.cs [Design]",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddPublisher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:37:28.502Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AddBook.cs",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddBook.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddBook.cs",
-              "ViewState": "AQIAANAAAAAAAAAAAAArwOcAAAAnAAAA",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAiwPEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T14:40:12.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "SelectBook.cs [Design]",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\SelectBook.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\SelectBook.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\SelectBook.cs",
               "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\SelectBook.cs [Design]",
-              "RelativeToolTip": "UniversityLibraryFormsCSQL\\SelectBook.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T11:46:46.697Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T11:46:46.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "UpdateUserDetails.Designer.cs",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.Designer.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\UpdateUserDetails.Designer.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.Designer.cs",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\UpdateUserDetails.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAKMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T22:56:09.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T22:56:09.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "BrowseBooks.cs [Design]",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\BrowseBooks.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.cs [Design]",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.cs [Design]",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\BrowseBooks.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T14:21:35.015Z",
@@ -115,21 +300,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "UpdateBook.cs [Design]",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateBook.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateBook.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\UpdateBook.cs",
               "ToolTip": "C:\\Users\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateBook.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateBook.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T20:34:06.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AddBook.cs [Design]",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AddBook.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs [Design]",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AddBook.cs [Design]",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\AddBook.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T14:20:50.088Z",
@@ -137,11 +323,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "UpdateUserDetails.cs",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\UpdateUserDetails.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UpdateUserDetails.cs",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\UpdateUserDetails.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,45 +335,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\farah\\source\\repos\\Yousef-Albasel\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.cs [Design]",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "UniversityLibraryFormsCSQL\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:41:21.242Z"
+              "WhenOpened": "2024-05-06T13:41:21.242Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Program.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\Program.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Program.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Program.cs",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\Program.cs",
-              "ViewState": "AQIAAAEAAACAmZmZmZkvwAoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T17:22:43.388Z"
+              "WhenOpened": "2024-05-04T17:22:43.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Form1.cs",
               "DocumentMoniker": "F:\\Database Project\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Form1.cs",
               "ToolTip": "F:\\Database Project\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Form1.cs",
-              "RelativeToolTip": "..\\..\\..\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAIwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:30:26.523Z"
+              "WhenOpened": "2024-05-05T12:30:26.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "BrowseBooks.Designer.cs",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.Designer.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\BrowseBooks.Designer.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\BrowseBooks.Designer.cs",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\BrowseBooks.Designer.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAAAIwG0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -196,15 +384,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "AdminDashboard.Designer.cs",
-              "DocumentMoniker": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.Designer.cs",
               "RelativeDocumentMoniker": "UniversityLibraryFormsCSQL\\AdminDashboard.Designer.cs",
-              "ToolTip": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\AdminDashboard.Designer.cs",
               "RelativeToolTip": "UniversityLibraryFormsCSQL\\AdminDashboard.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:50:10.769Z"
+              "WhenOpened": "2024-05-06T13:50:10.769Z",
+              "EditorCaption": ""
             }
           ]
         }
