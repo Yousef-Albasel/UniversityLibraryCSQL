@@ -226,6 +226,7 @@
             Controls.Add(pictureBox1);
             Name = "UpdateUserINFO";
             Text = "UpdateUserINFO";
+            Load += UpdateUserINFO_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

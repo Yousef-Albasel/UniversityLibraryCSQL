@@ -25,7 +25,8 @@ namespace UniversityLibraryFormsCSQL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=UniversityLibrary;Integrated Security=True");
+            string connString = ConnectionStringHelper.ConnectionString;
+            SqlConnection con = new SqlConnection(connString);
             con.Open();
             SqlCommand cmd = new SqlCommand("Update STUDENT Set S_PASSWORD=@Password, S_EMAIL=@Email, MAJOR=@Major, S_FIRST_NAME=@FirstName, S_SECOND_NAME=@SecondName Where STUDENT_ID=@ID ", con);
             cmd.Parameters.AddWithValue("@ID", int.Parse(textBox1.Text));
@@ -44,6 +45,11 @@ namespace UniversityLibraryFormsCSQL
             {
                 this.Close();
             }
+
+        }
+
+        private void UpdateUserINFO_Load(object sender, EventArgs e)
+        {
 
         }
     }

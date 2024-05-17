@@ -18,13 +18,12 @@ namespace UniversityLibraryFormsCSQL
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=UniversityLibrary;Integrated Security=True");
- 
+        string connString = ConnectionStringHelper.ConnectionString;
 
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=UniversityLibrary;Integrated Security=True");
+            SqlConnection con = new SqlConnection(connString);
             con.Open();
             SqlCommand cmd = new SqlCommand("Update BOOKS set BOOK_NAME = @BookName, AVAILABILITY=@Availability, LANGUAGE=@Language where ISBN=@ISBN", con);
             cmd.Parameters.AddWithValue("@ISBN", int.Parse(textBox1.Text));

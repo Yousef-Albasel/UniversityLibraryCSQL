@@ -21,7 +21,8 @@ namespace UniversityLibraryFormsCSQL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=UniversityLibrary;Integrated Security=True");
+            string connString = ConnectionStringHelper.ConnectionString;
+            SqlConnection con = new SqlConnection(connString);
             con.Open();
             SqlCommand cmd = new SqlCommand ("Update LIBRARIAN Set L_PASSWORD=@Password, L_EMAIL=@Email, DEPARTMENT=@Department, L_FIRST_NAME=@FirstName, L_LAST_NAME=@SecondName Where LIBRARIAN_ID=@ID ", con);
             cmd.Parameters.AddWithValue("@ID", int.Parse(textBox1.Text));
