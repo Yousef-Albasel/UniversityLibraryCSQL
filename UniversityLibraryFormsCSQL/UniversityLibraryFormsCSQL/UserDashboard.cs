@@ -21,7 +21,8 @@ namespace UniversityLibraryFormsCSQL
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            UpdateUserINFO update = new UpdateUserINFO();
+            update.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,10 +30,16 @@ namespace UniversityLibraryFormsCSQL
             MessageBox.Show($"{userID}");
         }
 
+<<<<<<< HEAD
         private void button2_Click(object sender, EventArgs e)
         {
             SelectBook SelectForm = new SelectBook();
             SelectForm.Show();
+=======
+        private void UserDashboard_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 4c20a14d829d2d0cc200620b2f7e58b74e512eac
         }
     }
 }

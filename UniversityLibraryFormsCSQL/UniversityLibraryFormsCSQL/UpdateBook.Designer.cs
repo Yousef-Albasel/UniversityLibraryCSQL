@@ -37,8 +37,6 @@
             textBox3 = new TextBox();
             label4 = new Label();
             textBox4 = new TextBox();
-            label6 = new Label();
-            textBox6 = new TextBox();
             label7 = new Label();
             label8 = new Label();
             button1 = new Button();
@@ -63,16 +61,16 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(204, 109);
+            label1.Location = new Point(96, 128);
             label1.Name = "label1";
-            label1.Size = new Size(300, 31);
+            label1.Size = new Size(186, 31);
             label1.TabIndex = 1;
-            label1.Text = "Enter BookName to Update";
+            label1.Text = "Enter Book ISBN";
             // 
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(247, 143);
+            textBox1.Location = new Point(288, 132);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(194, 30);
             textBox1.TabIndex = 2;
@@ -83,15 +81,15 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(50, 250);
+            label2.Location = new Point(201, 226);
             label2.Name = "label2";
-            label2.Size = new Size(66, 31);
+            label2.Size = new Size(130, 31);
             label2.TabIndex = 3;
-            label2.Text = "ISBN";
+            label2.Text = "BookName";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(50, 284);
+            textBox2.Location = new Point(201, 271);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(194, 27);
             textBox2.TabIndex = 4;
@@ -102,15 +100,15 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(50, 343);
+            label3.Location = new Point(201, 318);
             label3.Name = "label3";
-            label3.Size = new Size(110, 31);
+            label3.Size = new Size(129, 31);
             label3.TabIndex = 5;
-            label3.Text = "Category";
+            label3.Text = "Availability";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(50, 377);
+            textBox3.Location = new Point(201, 352);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(194, 27);
             textBox3.TabIndex = 6;
@@ -128,29 +126,10 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(414, 377);
+            textBox4.Location = new Point(201, 435);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(194, 27);
             textBox4.TabIndex = 8;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(414, 250);
-            label6.Name = "label6";
-            label6.Size = new Size(216, 31);
-            label6.TabIndex = 11;
-            label6.Text = "Author Information";
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(414, 284);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(194, 27);
-            textBox6.TabIndex = 12;
             // 
             // label7
             // 
@@ -158,7 +137,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(414, 343);
+            label7.Location = new Point(201, 401);
             label7.Name = "label7";
             label7.Size = new Size(115, 31);
             label7.TabIndex = 13;
@@ -170,7 +149,7 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(61, 195);
+            label8.Location = new Point(50, 185);
             label8.Name = "label8";
             label8.Size = new Size(345, 31);
             label8.TabIndex = 14;
@@ -179,7 +158,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(266, 492);
+            button1.Location = new Point(406, 508);
             button1.Name = "button1";
             button1.Size = new Size(129, 48);
             button1.TabIndex = 15;
@@ -193,12 +172,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.BG;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(745, 600);
+            ClientSize = new Size(624, 568);
             Controls.Add(button1);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(textBox6);
-            Controls.Add(label6);
             Controls.Add(textBox4);
             Controls.Add(label4);
             Controls.Add(textBox3);
@@ -212,6 +189,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "UpdateBook";
             Text = "Update Book";
+            Load += UpdateBook_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -228,8 +206,6 @@
         private TextBox textBox3;
         private Label label4;
         private TextBox textBox4;
-        private Label label6;
-        private TextBox textBox6;
         private Label label7;
         private Label label8;
         private Button button1;
