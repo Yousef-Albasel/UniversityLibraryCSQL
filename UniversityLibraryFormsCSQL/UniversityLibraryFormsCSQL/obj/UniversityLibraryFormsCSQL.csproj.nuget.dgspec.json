@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {}
+    "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {
+    "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+        "projectUniqueName": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
         "projectName": "UniversityLibraryFormsCSQL",
-        "projectPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
-        "packagesPath": "C:\\Users\\abdua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdua\\OneDrive\\Documents\\GitHub\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
+        "projectPath": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL.csproj",
+        "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
+        "outputPath": "F:\\Database Project\\newClone\\UniversityLibraryCSQL\\UniversityLibraryFormsCSQL\\UniversityLibraryFormsCSQL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\abdua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
