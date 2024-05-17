@@ -16,17 +16,23 @@ namespace UniversityLibraryFormsCSQL
         public UserDashboard()
         {
             InitializeComponent();
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            UpdateUserINFO update = new UpdateUserINFO();
+            update.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show($"{userID}");
+        }
+
+        private void UserDashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

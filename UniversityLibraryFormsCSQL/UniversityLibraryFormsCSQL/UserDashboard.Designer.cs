@@ -76,6 +76,7 @@
             Controls.Add(button1);
             Name = "UserDashboard";
             Text = "UseDashboard";
+            Load += UserDashboard_Load;
             ResumeLayout(false);
         }
 

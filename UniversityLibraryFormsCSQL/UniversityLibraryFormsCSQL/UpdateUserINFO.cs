@@ -9,25 +9,29 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-
 namespace UniversityLibraryFormsCSQL
 {
-    public partial class UpdateUserDetails : Form
+    public partial class UpdateUserINFO : Form
     {
-        public UpdateUserDetails()
+        public UpdateUserINFO()
         {
             InitializeComponent();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=UniversityLibrary;Integrated Security=True");
             con.Open();
-            SqlCommand cmd = new SqlCommand ("Update LIBRARIAN Set L_PASSWORD=@Password, L_EMAIL=@Email, DEPARTMENT=@Department, L_FIRST_NAME=@FirstName, L_LAST_NAME=@SecondName Where LIBRARIAN_ID=@ID ", con);
+            SqlCommand cmd = new SqlCommand("Update STUDENT Set S_PASSWORD=@Password, S_EMAIL=@Email, MAJOR=@Major, S_FIRST_NAME=@FirstName, S_SECOND_NAME=@SecondName Where STUDENT_ID=@ID ", con);
             cmd.Parameters.AddWithValue("@ID", int.Parse(textBox1.Text));
             cmd.Parameters.AddWithValue("@Password", textBox2.Text);
             cmd.Parameters.AddWithValue("@Email", textBox3.Text);
-            cmd.Parameters.AddWithValue("@Department", textBox6.Text);
+            cmd.Parameters.AddWithValue("@Major", textBox6.Text);
             cmd.Parameters.AddWithValue("@FirstName", textBox4.Text);
             cmd.Parameters.AddWithValue("@SecondName", textBox5.Text);
             cmd.ExecuteNonQuery();
@@ -40,10 +44,6 @@ namespace UniversityLibraryFormsCSQL
             {
                 this.Close();
             }
-        }
-
-        private void UpdateUserDetails_Load(object sender, EventArgs e)
-        {
 
         }
     }
