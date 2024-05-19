@@ -120,7 +120,7 @@ namespace UniversityLibraryFormsCSQL
         private void SelectBook_Load(object sender, EventArgs e)
         {
         
-            TableSelection.Items.AddRange(new string[] { "Books", "Authors", "Fines" });
+            TableSelection.Items.AddRange(new string[] { "BOOKS", "AUTHOR", "FIINES" });
         }
 
         private void TableSelection_SelectedIndexChanged(object sender, EventArgs e)
@@ -128,17 +128,17 @@ namespace UniversityLibraryFormsCSQL
             // Display fields based on the selected table
             switch (TableSelection.SelectedItem.ToString())
             {
-                case "Books":
+                case "BOOKS":
                     EnableBookFields(true);
                     EnableAuthorFields(false);
                     EnableFinesFields(false);
                     break;
-                case "Authors":
+                case "AUTHOR":
                     EnableBookFields(false);
                     EnableAuthorFields(true);
                     EnableFinesFields(false);
                     break;
-                case "Fines":
+                case "FIINES":
                     EnableBookFields(false);
                     EnableAuthorFields(false);
                     EnableFinesFields(true);
@@ -155,7 +155,7 @@ namespace UniversityLibraryFormsCSQL
 
             switch (selectedTable)
             {
-                case "Books":
+                case "BOOKS":
                     data = GetBookData();
                     break;
                 case "Authors":
@@ -174,10 +174,10 @@ namespace UniversityLibraryFormsCSQL
 
         private DataTable GetBookData()
         {
-            string query = "SELECT * FROM Books WHERE 1=1";
+            string query = "SELECT * FROM BOOKS WHERE 1=1";
             if (!string.IsNullOrEmpty(BookNameTextBox.Text))
             {
-                query += $" AND BookName = '{BookNameTextBox.Text}'";
+                query += $" AND BOOK_NAME= '{BOOK_NAMETextBox.Text}'";
             }
             if (!string.IsNullOrEmpty(ISBNTextBox.Text))
             {
@@ -185,21 +185,21 @@ namespace UniversityLibraryFormsCSQL
             }
             if (!string.IsNullOrEmpty(LanguageTextBox.Text))
             {
-                query += $" AND Language = '{LanguageTextBox.Text}'";
+                query += $" AND LANGUAGE = '{LANGUAGETextBox.Text}'";
             }
             return ExecuteQuery(query);
         }
 
         private DataTable GetAuthorData()
         {
-            string query = "SELECT * FROM Authors WHERE 1=1";
+            string query = "SELECT * FROM AUTHOR WHERE 1=1";
             if (!string.IsNullOrEmpty(FirstNameTextBox.Text))
             {
-                query += $" AND FirstName = '{FirstNameTextBox.Text}'";
+                query += $" AND A_FIRST_NAME = '{A_FIRST_NAMETextBox.Text}'";
             }
             if (!string.IsNullOrEmpty(LastNameTextBox.Text))
             {
-                query += $" AND LastName = '{LastNameTextBox.Text}'";
+                query += $" AND A_LAST_NAME = '{A_LAST_NAMETextBox.Text}'";
             }
             return ExecuteQuery(query);
         }
