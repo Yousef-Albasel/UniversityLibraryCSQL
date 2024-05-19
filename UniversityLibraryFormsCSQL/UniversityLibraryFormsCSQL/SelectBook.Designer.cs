@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectBook));
             dataGridView1 = new DataGridView();
             TableLabel = new Label();
             TableSelection = new ComboBox();
@@ -54,7 +55,13 @@
             label6 = new Label();
             PublisherNameTextBox = new TextBox();
             button2 = new Button();
+            panel1 = new Panel();
+            metroControlBox3 = new ReaLTaiizor.Controls.MetroControlBox();
+            metroControlBox2 = new ReaLTaiizor.Controls.MetroControlBox();
+            metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridView1
@@ -66,6 +73,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(358, 417);
             dataGridView1.TabIndex = 15;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // TableLabel
             // 
@@ -98,7 +106,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlLightLight;
-            label1.Location = new Point(15, 9);
+            label1.Location = new Point(48, 19);
             label1.Name = "label1";
             label1.Size = new Size(187, 21);
             label1.TabIndex = 18;
@@ -112,6 +120,7 @@
             button1.TabIndex = 19;
             button1.Text = "Clear Fields";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
@@ -186,6 +195,7 @@
             CategoryTextBox.Name = "CategoryTextBox";
             CategoryTextBox.Size = new Size(115, 23);
             CategoryTextBox.TabIndex = 26;
+            CategoryTextBox.SelectedIndexChanged += CategoryTextBox_SelectedIndexChanged;
             // 
             // Category
             // 
@@ -220,7 +230,6 @@
             LanguageTextBox.Name = "LanguageTextBox";
             LanguageTextBox.Size = new Size(115, 22);
             LanguageTextBox.TabIndex = 28;
-            LanguageTextBox.Text = "English";
             // 
             // label4
             // 
@@ -334,13 +343,120 @@
             button2.TabIndex = 40;
             button2.Text = "Load Data";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(metroControlBox3);
+            panel1.Controls.Add(metroControlBox2);
+            panel1.Controls.Add(metroControlBox1);
+            panel1.Location = new Point(-1, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(799, 37);
+            panel1.TabIndex = 41;
+            panel1.MouseDown += panel1_MouseDown;
+            panel1.MouseMove += panel1_MouseMove;
+            // 
+            // metroControlBox3
+            // 
+            metroControlBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            metroControlBox3.CloseHoverBackColor = Color.FromArgb(183, 40, 40);
+            metroControlBox3.CloseHoverForeColor = Color.White;
+            metroControlBox3.CloseNormalForeColor = Color.Gray;
+            metroControlBox3.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
+            metroControlBox3.DisabledForeColor = Color.DimGray;
+            metroControlBox3.IsDerivedStyle = true;
+            metroControlBox3.Location = new Point(689, 9);
+            metroControlBox3.MaximizeBox = true;
+            metroControlBox3.MaximizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox3.MaximizeHoverForeColor = Color.Gray;
+            metroControlBox3.MaximizeNormalForeColor = Color.Gray;
+            metroControlBox3.MinimizeBox = true;
+            metroControlBox3.MinimizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox3.MinimizeHoverForeColor = Color.Gray;
+            metroControlBox3.MinimizeNormalForeColor = Color.Gray;
+            metroControlBox3.Name = "metroControlBox3";
+            metroControlBox3.Size = new Size(100, 25);
+            metroControlBox3.Style = ReaLTaiizor.Enum.Metro.Style.Light;
+            metroControlBox3.StyleManager = null;
+            metroControlBox3.TabIndex = 29;
+            metroControlBox3.Text = "metroControlBox3";
+            metroControlBox3.ThemeAuthor = "Taiizor";
+            metroControlBox3.ThemeName = "MetroLight";
+            // 
+            // metroControlBox2
+            // 
+            metroControlBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            metroControlBox2.CloseHoverBackColor = Color.FromArgb(183, 40, 40);
+            metroControlBox2.CloseHoverForeColor = Color.White;
+            metroControlBox2.CloseNormalForeColor = Color.Gray;
+            metroControlBox2.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
+            metroControlBox2.DisabledForeColor = Color.DimGray;
+            metroControlBox2.IsDerivedStyle = true;
+            metroControlBox2.Location = new Point(1219, 9);
+            metroControlBox2.MaximizeBox = true;
+            metroControlBox2.MaximizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox2.MaximizeHoverForeColor = Color.Gray;
+            metroControlBox2.MaximizeNormalForeColor = Color.Gray;
+            metroControlBox2.MinimizeBox = true;
+            metroControlBox2.MinimizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox2.MinimizeHoverForeColor = Color.Gray;
+            metroControlBox2.MinimizeNormalForeColor = Color.Gray;
+            metroControlBox2.Name = "metroControlBox2";
+            metroControlBox2.Size = new Size(100, 25);
+            metroControlBox2.Style = ReaLTaiizor.Enum.Metro.Style.Light;
+            metroControlBox2.StyleManager = null;
+            metroControlBox2.TabIndex = 28;
+            metroControlBox2.Text = "metroControlBox2";
+            metroControlBox2.ThemeAuthor = "Taiizor";
+            metroControlBox2.ThemeName = "MetroLight";
+            // 
+            // metroControlBox1
+            // 
+            metroControlBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            metroControlBox1.CloseHoverBackColor = Color.FromArgb(183, 40, 40);
+            metroControlBox1.CloseHoverForeColor = Color.White;
+            metroControlBox1.CloseNormalForeColor = Color.Gray;
+            metroControlBox1.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
+            metroControlBox1.DisabledForeColor = Color.DimGray;
+            metroControlBox1.IsDerivedStyle = true;
+            metroControlBox1.Location = new Point(1789, 3);
+            metroControlBox1.MaximizeBox = true;
+            metroControlBox1.MaximizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox1.MaximizeHoverForeColor = Color.Gray;
+            metroControlBox1.MaximizeNormalForeColor = Color.Gray;
+            metroControlBox1.MinimizeBox = true;
+            metroControlBox1.MinimizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox1.MinimizeHoverForeColor = Color.Gray;
+            metroControlBox1.MinimizeNormalForeColor = Color.Gray;
+            metroControlBox1.Name = "metroControlBox1";
+            metroControlBox1.Size = new Size(100, 25);
+            metroControlBox1.Style = ReaLTaiizor.Enum.Metro.Style.Light;
+            metroControlBox1.StyleManager = null;
+            metroControlBox1.TabIndex = 27;
+            metroControlBox1.Text = "metroControlBox1";
+            metroControlBox1.ThemeAuthor = "Taiizor";
+            metroControlBox1.ThemeName = "MetroLight";
+            // 
+            // button3
+            // 
+            button3.Location = new Point(25, 446);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 42;
+            button3.Text = "Back";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // SelectBook
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.BG;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 481);
+            Controls.Add(button3);
+            Controls.Add(panel1);
             Controls.Add(button2);
             Controls.Add(label5);
             Controls.Add(PublicationYearTextBox);
@@ -367,10 +483,12 @@
             Controls.Add(TableSelection);
             Controls.Add(TableLabel);
             Controls.Add(dataGridView1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "SelectBook";
             Text = "SelectBook";
             Load += SelectBook_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -402,5 +520,10 @@
         private Label label6;
         private TextBox PublisherNameTextBox;
         private Button button2;
+        private Panel panel1;
+        private ReaLTaiizor.Controls.MetroControlBox metroControlBox2;
+        private ReaLTaiizor.Controls.MetroControlBox metroControlBox1;
+        private ReaLTaiizor.Controls.MetroControlBox metroControlBox3;
+        private Button button3;
     }
 }

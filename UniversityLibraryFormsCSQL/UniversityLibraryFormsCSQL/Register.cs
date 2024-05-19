@@ -18,10 +18,11 @@ namespace UniversityLibraryFormsCSQL
         bool isStudent = false;
         bool isAdmin = false;
         ErrorProvider errorProvider = new ErrorProvider();
+        public Point mouseLocation;
         public Register()
         {
             InitializeComponent();
-            passwordTextBox.PasswordChar = '*';
+            passwordTextBox.UseSystemPasswordChar = true;
 
         }
 
@@ -88,7 +89,7 @@ namespace UniversityLibraryFormsCSQL
         {
 
         }
-            
+
         private void emailLabel_Click(object sender, EventArgs e)
         {
 
@@ -123,7 +124,7 @@ namespace UniversityLibraryFormsCSQL
         {
             if (!ValidateInputs())
             {
-                return; 
+                return;
             }
 
 
@@ -138,11 +139,11 @@ namespace UniversityLibraryFormsCSQL
             if (isStudent)
             {
                 InsertUser(studentID, 0, major, "", firstName, lastName, email, password);
-                this.Close();    
+                this.Close();
             }
             else if (isAdmin)
             {
-                InsertUser(0, librarianID, "", department, firstName, lastName, email, password); 
+                InsertUser(0, librarianID, "", department, firstName, lastName, email, password);
                 this.Close();
             }
         }
@@ -247,7 +248,7 @@ namespace UniversityLibraryFormsCSQL
             }
             // Validate email
             string email = emailTextBox.Text;
-            
+
             if (CheckIfEmailExists(email))
             {
                 errorProvider.SetError(emailTextBox, "Email already in use!");
@@ -333,9 +334,9 @@ namespace UniversityLibraryFormsCSQL
             }
         }
 
-        private bool InsertUser(int studentID, int librarianID, string major,string department, string firstName, string lastName, string email, string password)
+        private bool InsertUser(int studentID, int librarianID, string major, string department, string firstName, string lastName, string email, string password)
         {
-            string query; 
+            string query;
             if (isStudent)
             {
                 query = $"INSERT INTO STUDENT (STUDENT_ID, MAJOR, S_FIRST_NAME, S_SECOND_NAME, S_EMAIL, S_PASSWORD) " +
@@ -366,14 +367,54 @@ namespace UniversityLibraryFormsCSQL
                 }
                 catch (Exception ex)
                 {
-                        MessageBox.Show("An error occurred while inserting the student: " + ex.Message);
+                    MessageBox.Show("An error occurred while inserting the student: " + ex.Message);
                     return false;
                 }
             }
             return false;
         }
 
+        private void Register_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseLocation = new Point(-e.X, -e.Y);
 
+        }
+
+        private void Register_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mousePos = Control.MousePosition;
+                mousePos.Offset(mouseLocation.X, mouseLocation.Y);
+                Location = mousePos;
+            }
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseLocation = new Point(-e.X, -e.Y);
+
+        }
+
+        private void panel1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mousePos = Control.MousePosition;
+                mousePos.Offset(mouseLocation.X, mouseLocation.Y);
+                Location = mousePos;
+            }
+        }
+
+        private void nightControlBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

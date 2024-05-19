@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "UniversityLibraryFormsCSQL/1.0.0": {
         "dependencies": {
+          "ReaLTaiizor": "3.8.0.5",
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
@@ -19,6 +20,14 @@
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "ReaLTaiizor/3.8.0.5": {
+        "runtime": {
+          "lib/net8.0-windows7.0/ReaLTaiizor.dll": {
+            "assemblyVersion": "3.8.0.5",
+            "fileVersion": "3.8.0.5"
+          }
         }
       },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -110,6 +119,13 @@
       "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "ReaLTaiizor/3.8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l/LKMZXpfBwIEax7ZEXpRNlLmPAENN2OPf5sAYXVecjENvmlGhrgX0YKU72kFsw/Yjuzn+F01jMAAgs2mYsJIg==",
+      "path": "realtaiizor/3.8.0.5",
+      "hashPath": "realtaiizor.3.8.0.5.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",

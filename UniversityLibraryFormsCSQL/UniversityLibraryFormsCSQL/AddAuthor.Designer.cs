@@ -20,63 +20,76 @@
 
         private void InitializeComponent()
         {
-            this.txtFirstName = new System.Windows.Forms.TextBox();
-            this.txtLastName = new System.Windows.Forms.TextBox();
-            this.btnAddAuthor = new System.Windows.Forms.Button();
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.lblLastName = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-
+            txtFirstName = new TextBox();
+            txtLastName = new TextBox();
+            btnAddAuthor = new Button();
+            lblFirstName = new Label();
+            lblLastName = new Label();
+            SuspendLayout();
+            // 
             // txtFirstName
-            this.txtFirstName.Location = new System.Drawing.Point(120, 20);
-            this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(150, 20);
-            this.txtFirstName.TabIndex = 0;
-
+            // 
+            txtFirstName.Location = new Point(140, 23);
+            txtFirstName.Margin = new Padding(4, 3, 4, 3);
+            txtFirstName.Name = "txtFirstName";
+            txtFirstName.Size = new Size(174, 23);
+            txtFirstName.TabIndex = 0;
+            // 
             // txtLastName
-            this.txtLastName.Location = new System.Drawing.Point(120, 60);
-            this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(150, 20);
-            this.txtLastName.TabIndex = 1;
-
+            // 
+            txtLastName.Location = new Point(140, 69);
+            txtLastName.Margin = new Padding(4, 3, 4, 3);
+            txtLastName.Name = "txtLastName";
+            txtLastName.Size = new Size(174, 23);
+            txtLastName.TabIndex = 1;
+            // 
             // btnAddAuthor
-            this.btnAddAuthor.Location = new System.Drawing.Point(195, 100);
-            this.btnAddAuthor.Name = "btnAddAuthor";
-            this.btnAddAuthor.Size = new System.Drawing.Size(75, 23);
-            this.btnAddAuthor.TabIndex = 2;
-            this.btnAddAuthor.Text = "Add Author";
-            this.btnAddAuthor.UseVisualStyleBackColor = true;
-            this.btnAddAuthor.Click += new System.EventHandler(this.btnAddAuthor_Click);
-
+            // 
+            btnAddAuthor.Location = new Point(227, 115);
+            btnAddAuthor.Margin = new Padding(4, 3, 4, 3);
+            btnAddAuthor.Name = "btnAddAuthor";
+            btnAddAuthor.Size = new Size(88, 27);
+            btnAddAuthor.TabIndex = 2;
+            btnAddAuthor.Text = "Add Author";
+            btnAddAuthor.UseVisualStyleBackColor = true;
+            btnAddAuthor.Click += btnAddAuthor_Click;
+            // 
             // lblFirstName
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(20, 23);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(57, 13);
-            this.lblFirstName.TabIndex = 3;
-            this.lblFirstName.Text = "First Name";
-
+            // 
+            lblFirstName.AutoSize = true;
+            lblFirstName.Location = new Point(23, 27);
+            lblFirstName.Margin = new Padding(4, 0, 4, 0);
+            lblFirstName.Name = "lblFirstName";
+            lblFirstName.Size = new Size(64, 15);
+            lblFirstName.TabIndex = 3;
+            lblFirstName.Text = "First Name";
+            // 
             // lblLastName
-            this.lblLastName.AutoSize = true;
-            this.lblLastName.Location = new System.Drawing.Point(20, 63);
-            this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(58, 13);
-            this.lblLastName.TabIndex = 4;
-            this.lblLastName.Text = "Last Name";
-
+            // 
+            lblLastName.AutoSize = true;
+            lblLastName.Location = new Point(23, 73);
+            lblLastName.Margin = new Padding(4, 0, 4, 0);
+            lblLastName.Name = "lblLastName";
+            lblLastName.Size = new Size(63, 15);
+            lblLastName.TabIndex = 4;
+            lblLastName.Text = "Last Name";
+            // 
             // AddAuthor
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 141);
-            this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.lblFirstName);
-            this.Controls.Add(this.btnAddAuthor);
-            this.Controls.Add(this.txtLastName);
-            this.Controls.Add(this.txtFirstName);
-            this.Name = "AddAuthor";
-            this.Text = "Add Author";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(331, 163);
+            Controls.Add(lblLastName);
+            Controls.Add(lblFirstName);
+            Controls.Add(btnAddAuthor);
+            Controls.Add(txtLastName);
+            Controls.Add(txtFirstName);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "AddAuthor";
+            Text = "Add Author";
+            Load += AddAuthor_Load_1;
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

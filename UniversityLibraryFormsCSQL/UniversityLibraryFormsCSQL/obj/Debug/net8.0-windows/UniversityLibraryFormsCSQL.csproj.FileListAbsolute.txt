@@ -195,3 +195,44 @@ C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibrary
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddCategory.resources
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddPublisher.resources
 C:\Users\abdua\OneDrive\Documents\GitHub\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateUserINFO.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.exe
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.deps.json
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.runtimeconfig.json
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.AssemblyReference.cache
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddAuthor.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddBook.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddCategory.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AddPublisher.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AdminDashboard.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.BrowseBooks.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.DeleteBook.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.DeleteUser.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Login.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Properties.Resources.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.Register.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.SelectBook.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateBook.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateUserDetails.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UpdateUserINFO.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.UserDashboard.resources
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.GenerateResource.cache
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AssemblyInfoInputs.cache
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.AssemblyInfo.cs
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.csproj.CoreCompileInputs.cache
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.sourcelink.json
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\Universi.91A1F8FF.Up2Date
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\refint\UniversityLibraryFormsCSQL.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.pdb
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\UniversityLibraryFormsCSQL.genruntimeconfig.cache
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\obj\Debug\net8.0-windows\ref\UniversityLibraryFormsCSQL.dll
+F:\Database Project\Latest\UniversityLibraryCSQL\UniversityLibraryFormsCSQL\UniversityLibraryFormsCSQL\bin\Debug\net8.0-windows\ReaLTaiizor.dll

@@ -13,7 +13,7 @@ namespace UniversityLibraryFormsCSQL
 {
     public partial class AddCategory : Form
     {
-        string connString = "Data Source=DESKTOP-BC6SQGP\\SQLEXPRESS;Initial Catalog = UniversityLibrary; Integrated Security = True;";
+        string connString = ConnectionStringHelper.ConnectionString;
         public AddCategory()
         {
             InitializeComponent();
@@ -86,6 +86,9 @@ namespace UniversityLibraryFormsCSQL
             }
         }
 
+        private void AddCategory_Load_1(object sender, EventArgs e)
+        {
 
+        }
     }
 }

@@ -13,9 +13,12 @@ namespace UniversityLibraryFormsCSQL
 {
     public partial class UpdateUserINFO : Form
     {
+        public Point mouseLocation;
         public UpdateUserINFO()
         {
             InitializeComponent();
+            textBox1.Text = UserContext.UserID.ToString();
+            textBox1.Enabled = false;
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -51,6 +54,34 @@ namespace UniversityLibraryFormsCSQL
         private void UpdateUserINFO_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseLocation = new Point(-e.X, -e.Y);
+
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mousePos = Control.MousePosition;
+                mousePos.Offset(mouseLocation.X, mouseLocation.Y);
+                Location = mousePos;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UserDashboard ud = new UserDashboard();
+            ud.Show();
+            this.Close();
         }
     }
 }
