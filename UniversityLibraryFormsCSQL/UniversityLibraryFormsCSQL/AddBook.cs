@@ -14,7 +14,8 @@ namespace UniversityLibraryFormsCSQL
 {
     public partial class AddBook : Form
     {
-        string connString = "Data Source=DESKTOP-BC6SQGP\\SQLEXPRESS;Initial Catalog = UniversityLibrary; Integrated Security = True;";
+        public Point mouseLocation;
+        string connString = ConnectionStringHelper.ConnectionString;
         public AddBook()
         {
             InitializeComponent();
@@ -175,8 +176,8 @@ namespace UniversityLibraryFormsCSQL
             // Connection string for your database
             string connectionString = connString;
             // SQL INSERT command
-            string sql = "INSERT INTO BOOKS (BOOK_NAME, LANGUAGE, AUTHOR_ID, ISBN, PUBLISHER_ID, CATEGORY, AVAILABILITY) " +
-                         "VALUES (@BookName, @Language, @Author_ID, @ISBN, @PUBLISHER_ID, @Category, @Availability)";
+            string sql = "INSERT INTO BOOKS (BOOK_NAME, LANGUAGE, AUTHOR_ID, ISBN, PUBLISHER_ID, AVAILABILITY) " +
+                         "VALUES (@BookName, @Language, @Author_ID, @ISBN, @PUBLISHER_ID, @Availability)";
 
             // Using statement to automatically close connection
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -220,10 +221,21 @@ namespace UniversityLibraryFormsCSQL
                     command.Parameters.AddWithValue("@Language", language);
                     command.Parameters.AddWithValue("@Author_ID", authorId);
                     command.Parameters.AddWithValue("@PUBLISHER_ID", publisherId);
-                    command.Parameters.AddWithValue("@Category", category); // Add category parameter
                     command.Parameters.AddWithValue("@ISBN", isbn);
                     command.Parameters.AddWithValue("@Availability", availability);
 
+                    string bookCategorySql = "INSERT INTO BOOK_CATEGORY (CATEGORY, ISPN) VALUES (@Category, @ISPN)";
+                    SqlCommand bookCategoryCommand = new SqlCommand(bookCategorySql, connection);
+                    bookCategoryCommand.Parameters.AddWithValue("@Category", category);
+                    bookCategoryCommand.Parameters.AddWithValue("@ISPN", isbn);
+                    try
+                    {
+                        int CategotyCommand = Convert.ToInt32(bookCategoryCommand.ExecuteScalar());
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error Adding book to Category: {ex.Message}");
+                    }
                     // Execute command
                     int rowsAffected = command.ExecuteNonQuery();
 
@@ -279,6 +291,21 @@ namespace UniversityLibraryFormsCSQL
         private void AuthorCombo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseLocation = new Point(-e.X, -e.Y);
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mousePos = Control.MousePosition;
+                mousePos.Offset(mouseLocation.X, mouseLocation.Y);
+                Location = mousePos;
+            }
         }
     }
 }

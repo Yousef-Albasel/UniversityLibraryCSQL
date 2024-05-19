@@ -13,7 +13,7 @@ namespace UniversityLibraryFormsCSQL
 {
     public partial class AddPublisher : Form
     {
-        string connString = "Data Source=DESKTOP-BC6SQGP\\SQLEXPRESS;Initial Catalog = UniversityLibrary; Integrated Security = True;";
+        string connString = ConnectionStringHelper.ConnectionString;
         public AddPublisher()
         {
             InitializeComponent();
@@ -79,5 +79,9 @@ namespace UniversityLibraryFormsCSQL
             }
         }
 
+        private void AddPublisher_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

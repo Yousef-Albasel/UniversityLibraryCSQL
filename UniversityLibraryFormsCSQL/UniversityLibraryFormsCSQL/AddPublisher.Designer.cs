@@ -20,63 +20,76 @@
 
         private void InitializeComponent()
         {
-            this.txtPublisherName = new System.Windows.Forms.TextBox();
-            this.txtPublisherId = new System.Windows.Forms.TextBox();
-            this.btnAddPublisher = new System.Windows.Forms.Button();
-            this.lblPublisherName = new System.Windows.Forms.Label();
-            this.lblPublisherId = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-
+            txtPublisherName = new TextBox();
+            txtPublisherId = new TextBox();
+            btnAddPublisher = new Button();
+            lblPublisherName = new Label();
+            lblPublisherId = new Label();
+            SuspendLayout();
+            // 
             // txtPublisherName
-            this.txtPublisherName.Location = new System.Drawing.Point(120, 20);
-            this.txtPublisherName.Name = "txtPublisherName";
-            this.txtPublisherName.Size = new System.Drawing.Size(150, 20);
-            this.txtPublisherName.TabIndex = 0;
-
+            // 
+            txtPublisherName.Location = new Point(140, 23);
+            txtPublisherName.Margin = new Padding(4, 3, 4, 3);
+            txtPublisherName.Name = "txtPublisherName";
+            txtPublisherName.Size = new Size(174, 23);
+            txtPublisherName.TabIndex = 0;
+            // 
             // txtPublisherId
-            this.txtPublisherId.Location = new System.Drawing.Point(120, 60);
-            this.txtPublisherId.Name = "txtPublisherId";
-            this.txtPublisherId.Size = new System.Drawing.Size(150, 20);
-            this.txtPublisherId.TabIndex = 1;
-
+            // 
+            txtPublisherId.Location = new Point(140, 69);
+            txtPublisherId.Margin = new Padding(4, 3, 4, 3);
+            txtPublisherId.Name = "txtPublisherId";
+            txtPublisherId.Size = new Size(174, 23);
+            txtPublisherId.TabIndex = 1;
+            // 
             // btnAddPublisher
-            this.btnAddPublisher.Location = new System.Drawing.Point(195, 100);
-            this.btnAddPublisher.Name = "btnAddPublisher";
-            this.btnAddPublisher.Size = new System.Drawing.Size(75, 23);
-            this.btnAddPublisher.TabIndex = 2;
-            this.btnAddPublisher.Text = "Add Publisher";
-            this.btnAddPublisher.UseVisualStyleBackColor = true;
-            this.btnAddPublisher.Click += new System.EventHandler(this.btnAddPublisher_Click);
-
+            // 
+            btnAddPublisher.Location = new Point(227, 115);
+            btnAddPublisher.Margin = new Padding(4, 3, 4, 3);
+            btnAddPublisher.Name = "btnAddPublisher";
+            btnAddPublisher.Size = new Size(88, 27);
+            btnAddPublisher.TabIndex = 2;
+            btnAddPublisher.Text = "Add Publisher";
+            btnAddPublisher.UseVisualStyleBackColor = true;
+            btnAddPublisher.Click += btnAddPublisher_Click;
+            // 
             // lblPublisherName
-            this.lblPublisherName.AutoSize = true;
-            this.lblPublisherName.Location = new System.Drawing.Point(20, 23);
-            this.lblPublisherName.Name = "lblPublisherName";
-            this.lblPublisherName.Size = new System.Drawing.Size(79, 13);
-            this.lblPublisherName.TabIndex = 3;
-            this.lblPublisherName.Text = "Publisher Name";
-
+            // 
+            lblPublisherName.AutoSize = true;
+            lblPublisherName.Location = new Point(23, 27);
+            lblPublisherName.Margin = new Padding(4, 0, 4, 0);
+            lblPublisherName.Name = "lblPublisherName";
+            lblPublisherName.Size = new Size(91, 15);
+            lblPublisherName.TabIndex = 3;
+            lblPublisherName.Text = "Publisher Name";
+            // 
             // lblPublisherId
-            this.lblPublisherId.AutoSize = true;
-            this.lblPublisherId.Location = new System.Drawing.Point(20, 63);
-            this.lblPublisherId.Name = "lblPublisherId";
-            this.lblPublisherId.Size = new System.Drawing.Size(67, 13);
-            this.lblPublisherId.TabIndex = 4;
-            this.lblPublisherId.Text = "Publisher ID";
-
+            // 
+            lblPublisherId.AutoSize = true;
+            lblPublisherId.Location = new Point(23, 73);
+            lblPublisherId.Margin = new Padding(4, 0, 4, 0);
+            lblPublisherId.Name = "lblPublisherId";
+            lblPublisherId.Size = new Size(70, 15);
+            lblPublisherId.TabIndex = 4;
+            lblPublisherId.Text = "Publisher ID";
+            // 
             // AddPublisher
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 141);
-            this.Controls.Add(this.lblPublisherId);
-            this.Controls.Add(this.lblPublisherName);
-            this.Controls.Add(this.btnAddPublisher);
-            this.Controls.Add(this.txtPublisherId);
-            this.Controls.Add(this.txtPublisherName);
-            this.Name = "AddPublisher";
-            this.Text = "Add Publisher";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(331, 163);
+            Controls.Add(lblPublisherId);
+            Controls.Add(lblPublisherName);
+            Controls.Add(btnAddPublisher);
+            Controls.Add(txtPublisherId);
+            Controls.Add(txtPublisherName);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "AddPublisher";
+            Text = "Add Publisher";
+            Load += AddPublisher_Load_1;
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

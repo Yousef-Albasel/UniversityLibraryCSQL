@@ -8,9 +8,12 @@ namespace UniversityLibraryFormsCSQL
         string connString = ConnectionStringHelper.ConnectionString;
         bool? isStudent;
         int? userID = UserContext.UserID;
+
+        public Point mouseLocation;
         public Login()
         {
             InitializeComponent();
+            textBox2.UseSystemPasswordChar = true;
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -119,6 +122,21 @@ namespace UniversityLibraryFormsCSQL
                 }
             }
             return false;
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseLocation = new Point(-e.X, -e.Y);
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mousePos = Control.MousePosition;
+                mousePos.Offset(mouseLocation.X, mouseLocation.Y);
+                Location = mousePos;
+            }
         }
     }
 }

@@ -12,6 +12,7 @@ namespace UniversityLibraryFormsCSQL
 {
     public partial class AdminDashboard : Form
     {
+        public Point mouseLocation;
         public AdminDashboard()
         {
             InitializeComponent();
@@ -58,8 +59,76 @@ namespace UniversityLibraryFormsCSQL
 
         private void button6_Click(object sender, EventArgs e)
         {
-            BrowseBooks broBooks=new BrowseBooks(); 
+            BrowseBooks broBooks = new BrowseBooks();
             broBooks.Show();
+        }
+
+        private void AddBookBtn_Click(object sender, EventArgs e)
+        {
+            AddBook addBook = new AddBook();
+            addBook.Show();
+            this.Close();
+        }
+
+        private void DeleteBookBtn_Click(object sender, EventArgs e)
+        {
+            DeleteBook delBook = new DeleteBook();
+            delBook.Show();
+        }
+
+        private void BrowseBtn_Click(object sender, EventArgs e)
+        {
+            BrowseBooks broBooks = new BrowseBooks();
+            broBooks.Show();
+        }
+
+        private void DelUserBtn_Click(object sender, EventArgs e)
+        {
+            DeleteUser delUser = new DeleteUser();
+            delUser.Show();
+            this.Close();
+        }
+
+        private void AddBookBtn_Click_1(object sender, EventArgs e)
+        {
+            AddBook addBook = new AddBook();
+            addBook.Show();
+            this.Close();
+        }
+
+        private void UpdateUserBtn_Click(object sender, EventArgs e)
+        {
+            UpdateUserDetails upUser = new UpdateUserDetails();
+            upUser.Show();
+            this.Close();
+        }
+
+        private void UpdateBookBtn_Click(object sender, EventArgs e)
+        {
+            UpdateBook upBook = new UpdateBook();
+            upBook.Show();
+            this.Close();
+
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseLocation = new Point(-e.X, -e.Y);
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Point mousePos = Control.MousePosition;
+                mousePos.Offset(mouseLocation.X, mouseLocation.Y);
+                Location = mousePos;
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityLibraryFormsCSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f30d13fe6181ed44b8a2d7819f29b148b40211a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8f1b313e9d5352ac178fd1ffb72f809cb5abb69")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityLibraryFormsCSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityLibraryFormsCSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

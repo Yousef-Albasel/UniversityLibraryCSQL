@@ -28,93 +28,186 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserDashboard));
+            panel1 = new Panel();
+            metroControlBox2 = new ReaLTaiizor.Controls.MetroControlBox();
+            metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
+            Browse_Button = new ReaLTaiizor.Controls.HopeButton();
+            Select_Button = new ReaLTaiizor.Controls.HopeButton();
+            Update_Button = new ReaLTaiizor.Controls.HopeButton();
+            dataGridView1 = new DataGridView();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // panel1
             // 
-            button1.BackColor = SystemColors.Highlight;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(75, 241);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(174, 50);
-            button1.TabIndex = 0;
-            button1.Text = "Browse Books";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(metroControlBox2);
+            panel1.Controls.Add(metroControlBox1);
+            panel1.Location = new Point(-1, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(734, 37);
+            panel1.TabIndex = 27;
+            panel1.MouseDown += panel1_MouseDown;
+            panel1.MouseMove += panel1_MouseMove;
             // 
-            // button2
+            // metroControlBox2
             // 
-            button2.BackColor = SystemColors.Highlight;
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            button2.ForeColor = SystemColors.Control;
-            button2.Location = new Point(268, 241);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(178, 50);
-            button2.TabIndex = 1;
-            button2.Text = "Select Books";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            metroControlBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            metroControlBox2.CloseHoverBackColor = Color.FromArgb(183, 40, 40);
+            metroControlBox2.CloseHoverForeColor = Color.White;
+            metroControlBox2.CloseNormalForeColor = Color.Gray;
+            metroControlBox2.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
+            metroControlBox2.DisabledForeColor = Color.DimGray;
+            metroControlBox2.IsDerivedStyle = true;
+            metroControlBox2.Location = new Point(620, 9);
+            metroControlBox2.MaximizeBox = true;
+            metroControlBox2.MaximizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox2.MaximizeHoverForeColor = Color.Gray;
+            metroControlBox2.MaximizeNormalForeColor = Color.Gray;
+            metroControlBox2.MinimizeBox = true;
+            metroControlBox2.MinimizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox2.MinimizeHoverForeColor = Color.Gray;
+            metroControlBox2.MinimizeNormalForeColor = Color.Gray;
+            metroControlBox2.Name = "metroControlBox2";
+            metroControlBox2.Size = new Size(100, 25);
+            metroControlBox2.Style = ReaLTaiizor.Enum.Metro.Style.Light;
+            metroControlBox2.StyleManager = null;
+            metroControlBox2.TabIndex = 28;
+            metroControlBox2.Text = "metroControlBox2";
+            metroControlBox2.ThemeAuthor = "Taiizor";
+            metroControlBox2.ThemeName = "MetroLight";
             // 
-            // button3
+            // metroControlBox1
             // 
-            button3.BackColor = SystemColors.Highlight;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            button3.ForeColor = SystemColors.Control;
-            button3.Location = new Point(467, 241);
-            button3.Margin = new Padding(3, 2, 3, 2);
-            button3.Name = "button3";
-            button3.Size = new Size(178, 50);
-            button3.TabIndex = 2;
-            button3.Text = "Update User Details";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            metroControlBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            metroControlBox1.CloseHoverBackColor = Color.FromArgb(183, 40, 40);
+            metroControlBox1.CloseHoverForeColor = Color.White;
+            metroControlBox1.CloseNormalForeColor = Color.Gray;
+            metroControlBox1.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
+            metroControlBox1.DisabledForeColor = Color.DimGray;
+            metroControlBox1.IsDerivedStyle = true;
+            metroControlBox1.Location = new Point(1190, 3);
+            metroControlBox1.MaximizeBox = true;
+            metroControlBox1.MaximizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox1.MaximizeHoverForeColor = Color.Gray;
+            metroControlBox1.MaximizeNormalForeColor = Color.Gray;
+            metroControlBox1.MinimizeBox = true;
+            metroControlBox1.MinimizeHoverBackColor = Color.FromArgb(238, 238, 238);
+            metroControlBox1.MinimizeHoverForeColor = Color.Gray;
+            metroControlBox1.MinimizeNormalForeColor = Color.Gray;
+            metroControlBox1.Name = "metroControlBox1";
+            metroControlBox1.Size = new Size(100, 25);
+            metroControlBox1.Style = ReaLTaiizor.Enum.Metro.Style.Light;
+            metroControlBox1.StyleManager = null;
+            metroControlBox1.TabIndex = 27;
+            metroControlBox1.Text = "metroControlBox1";
+            metroControlBox1.ThemeAuthor = "Taiizor";
+            metroControlBox1.ThemeName = "MetroLight";
             // 
-            // pictureBox1
+            // Browse_Button
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = Properties.Resources.User_Dashboard;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(47, 57);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(232, 41);
-            pictureBox1.TabIndex = 3;
-            pictureBox1.TabStop = false;
+            Browse_Button.BackColor = SystemColors.ActiveBorder;
+            Browse_Button.BorderColor = Color.FromArgb(220, 223, 230);
+            Browse_Button.ButtonType = ReaLTaiizor.Util.HopeButtonType.Primary;
+            Browse_Button.DangerColor = Color.FromArgb(245, 108, 108);
+            Browse_Button.DefaultColor = Color.FromArgb(255, 255, 255);
+            Browse_Button.Font = new Font("Segoe UI", 12F);
+            Browse_Button.HoverTextColor = Color.FromArgb(48, 49, 51);
+            Browse_Button.InfoColor = Color.FromArgb(144, 147, 153);
+            Browse_Button.Location = new Point(79, 174);
+            Browse_Button.Name = "Browse_Button";
+            Browse_Button.PrimaryColor = Color.BlueViolet;
+            Browse_Button.Size = new Size(174, 44);
+            Browse_Button.SuccessColor = Color.FromArgb(103, 194, 58);
+            Browse_Button.TabIndex = 28;
+            Browse_Button.Text = "Browse Books";
+            Browse_Button.TextColor = Color.White;
+            Browse_Button.WarningColor = Color.FromArgb(230, 162, 60);
+            Browse_Button.Click += Browse_Button_Click;
+            // 
+            // Select_Button
+            // 
+            Select_Button.BackColor = SystemColors.ActiveBorder;
+            Select_Button.BorderColor = Color.FromArgb(220, 223, 230);
+            Select_Button.ButtonType = ReaLTaiizor.Util.HopeButtonType.Primary;
+            Select_Button.DangerColor = Color.FromArgb(245, 108, 108);
+            Select_Button.DefaultColor = Color.FromArgb(255, 255, 255);
+            Select_Button.Font = new Font("Segoe UI", 12F);
+            Select_Button.HoverTextColor = Color.FromArgb(48, 49, 51);
+            Select_Button.InfoColor = Color.FromArgb(144, 147, 153);
+            Select_Button.Location = new Point(272, 174);
+            Select_Button.Name = "Select_Button";
+            Select_Button.PrimaryColor = Color.BlueViolet;
+            Select_Button.Size = new Size(174, 44);
+            Select_Button.SuccessColor = Color.FromArgb(103, 194, 58);
+            Select_Button.TabIndex = 29;
+            Select_Button.Text = "Select Books";
+            Select_Button.TextColor = Color.White;
+            Select_Button.WarningColor = Color.FromArgb(230, 162, 60);
+            Select_Button.Click += Select_Button_Click;
+            // 
+            // Update_Button
+            // 
+            Update_Button.BackColor = SystemColors.ActiveBorder;
+            Update_Button.BorderColor = Color.FromArgb(220, 223, 230);
+            Update_Button.ButtonType = ReaLTaiizor.Util.HopeButtonType.Primary;
+            Update_Button.DangerColor = Color.FromArgb(245, 108, 108);
+            Update_Button.DefaultColor = Color.FromArgb(255, 255, 255);
+            Update_Button.Font = new Font("Segoe UI", 12F);
+            Update_Button.HoverTextColor = Color.FromArgb(48, 49, 51);
+            Update_Button.InfoColor = Color.FromArgb(144, 147, 153);
+            Update_Button.Location = new Point(471, 174);
+            Update_Button.Name = "Update_Button";
+            Update_Button.PrimaryColor = Color.BlueViolet;
+            Update_Button.Size = new Size(174, 44);
+            Update_Button.SuccessColor = Color.FromArgb(103, 194, 58);
+            Update_Button.TabIndex = 30;
+            Update_Button.Text = "Update User Details";
+            Update_Button.TextColor = Color.White;
+            Update_Button.WarningColor = Color.FromArgb(230, 162, 60);
+            Update_Button.Click += Update_Button_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(79, 257);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(566, 110);
+            dataGridView1.TabIndex = 31;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // UserDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.BG;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(731, 448);
-            Controls.Add(pictureBox1);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(dataGridView1);
+            Controls.Add(Update_Button);
+            Controls.Add(Select_Button);
+            Controls.Add(Browse_Button);
+            Controls.Add(panel1);
+            DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserDashboard";
             Text = "UseDashboard";
             Load += UserDashboard_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private PictureBox pictureBox1;
+        private Panel panel1;
+        private ReaLTaiizor.Controls.MetroControlBox metroControlBox1;
+        private ReaLTaiizor.Controls.MetroControlBox metroControlBox2;
+        private ReaLTaiizor.Controls.HopeButton Browse_Button;
+        private ReaLTaiizor.Controls.HopeButton Select_Button;
+        private ReaLTaiizor.Controls.HopeButton Update_Button;
+        private DataGridView dataGridView1;
     }
 }

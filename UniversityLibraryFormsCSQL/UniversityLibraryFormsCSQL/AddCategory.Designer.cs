@@ -20,63 +20,76 @@
 
         private void InitializeComponent()
         {
-            this.txtCategory = new System.Windows.Forms.TextBox();
-            this.txtISBN = new System.Windows.Forms.TextBox();
-            this.btnAddCategory = new System.Windows.Forms.Button();
-            this.lblCategory = new System.Windows.Forms.Label();
-            this.lblISBN = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-
+            txtCategory = new TextBox();
+            txtISBN = new TextBox();
+            btnAddCategory = new Button();
+            lblCategory = new Label();
+            lblISBN = new Label();
+            SuspendLayout();
+            // 
             // txtCategory
-            this.txtCategory.Location = new System.Drawing.Point(120, 20);
-            this.txtCategory.Name = "txtCategory";
-            this.txtCategory.Size = new System.Drawing.Size(150, 20);
-            this.txtCategory.TabIndex = 0;
-
+            // 
+            txtCategory.Location = new Point(140, 23);
+            txtCategory.Margin = new Padding(4, 3, 4, 3);
+            txtCategory.Name = "txtCategory";
+            txtCategory.Size = new Size(174, 23);
+            txtCategory.TabIndex = 0;
+            // 
             // txtISBN
-            this.txtISBN.Location = new System.Drawing.Point(120, 60);
-            this.txtISBN.Name = "txtISBN";
-            this.txtISBN.Size = new System.Drawing.Size(150, 20);
-            this.txtISBN.TabIndex = 1;
-
+            // 
+            txtISBN.Location = new Point(140, 69);
+            txtISBN.Margin = new Padding(4, 3, 4, 3);
+            txtISBN.Name = "txtISBN";
+            txtISBN.Size = new Size(174, 23);
+            txtISBN.TabIndex = 1;
+            // 
             // btnAddCategory
-            this.btnAddCategory.Location = new System.Drawing.Point(195, 100);
-            this.btnAddCategory.Name = "btnAddCategory";
-            this.btnAddCategory.Size = new System.Drawing.Size(75, 23);
-            this.btnAddCategory.TabIndex = 2;
-            this.btnAddCategory.Text = "Add Category";
-            this.btnAddCategory.UseVisualStyleBackColor = true;
-            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
-
+            // 
+            btnAddCategory.Location = new Point(227, 115);
+            btnAddCategory.Margin = new Padding(4, 3, 4, 3);
+            btnAddCategory.Name = "btnAddCategory";
+            btnAddCategory.Size = new Size(88, 27);
+            btnAddCategory.TabIndex = 2;
+            btnAddCategory.Text = "Add Category";
+            btnAddCategory.UseVisualStyleBackColor = true;
+            btnAddCategory.Click += btnAddCategory_Click;
+            // 
             // lblCategory
-            this.lblCategory.AutoSize = true;
-            this.lblCategory.Location = new System.Drawing.Point(20, 23);
-            this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(49, 13);
-            this.lblCategory.TabIndex = 3;
-            this.lblCategory.Text = "Category";
-
+            // 
+            lblCategory.AutoSize = true;
+            lblCategory.Location = new Point(23, 27);
+            lblCategory.Margin = new Padding(4, 0, 4, 0);
+            lblCategory.Name = "lblCategory";
+            lblCategory.Size = new Size(55, 15);
+            lblCategory.TabIndex = 3;
+            lblCategory.Text = "Category";
+            // 
             // lblISBN
-            this.lblISBN.AutoSize = true;
-            this.lblISBN.Location = new System.Drawing.Point(20, 63);
-            this.lblISBN.Name = "lblISBN";
-            this.lblISBN.Size = new System.Drawing.Size(32, 13);
-            this.lblISBN.TabIndex = 4;
-            this.lblISBN.Text = "ISBN";
-
+            // 
+            lblISBN.AutoSize = true;
+            lblISBN.Location = new Point(23, 73);
+            lblISBN.Margin = new Padding(4, 0, 4, 0);
+            lblISBN.Name = "lblISBN";
+            lblISBN.Size = new Size(32, 15);
+            lblISBN.TabIndex = 4;
+            lblISBN.Text = "ISBN";
+            // 
             // AddCategory
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 141);
-            this.Controls.Add(this.lblISBN);
-            this.Controls.Add(this.lblCategory);
-            this.Controls.Add(this.btnAddCategory);
-            this.Controls.Add(this.txtISBN);
-            this.Controls.Add(this.txtCategory);
-            this.Name = "AddCategory";
-            this.Text = "Add Category";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(331, 163);
+            Controls.Add(lblISBN);
+            Controls.Add(lblCategory);
+            Controls.Add(btnAddCategory);
+            Controls.Add(txtISBN);
+            Controls.Add(txtCategory);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "AddCategory";
+            Text = "Add Category";
+            Load += AddCategory_Load_1;
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }
