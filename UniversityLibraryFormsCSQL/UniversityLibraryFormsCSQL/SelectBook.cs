@@ -204,18 +204,7 @@ namespace UniversityLibraryFormsCSQL
             return ExecuteQuery(query);
         }
 
-       private DataTable GetFinesData(){
-           string query = "SELECT * FROM Fines WHERE 1=1";
-            if (!string.IsNullOrEmpty(StudentIDTextBox.Text))
-            {
-                query += $" AND STUDENT_ID = '{STUDENT_IDTextBox.Text}'";
-            }
-            if (!string.IsNullOrEmpty(FINES_AMOUNTTextBox.Text))
-            {
-                query += $" AND FINES_AMOUNT = '{FINES_AMOUNTTextBox.Text}'";
-            }
-            return ExecuteQuery(query);
-       }
+     
    
 
 
