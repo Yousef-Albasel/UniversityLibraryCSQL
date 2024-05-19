@@ -111,4 +111,127 @@ namespace UniversityLibraryFormsCSQL
             }
         }
     }
+
+  public SelectBook()
+        {
+            InitializeComponent();
+        }
+
+        private void SelectBook_Load(object sender, EventArgs e)
+        {
+        
+            TableSelection.Items.AddRange(new string[] { "Books", "Authors", "Fines" });
+        }
+
+        private void TableSelection_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Display fields based on the selected table
+            switch (TableSelection.SelectedItem.ToString())
+            {
+                case "Books":
+                    EnableBookFields(true);
+                    EnableAuthorFields(false);
+                    EnableFinesFields(false);
+                    break;
+                case "Authors":
+                    EnableBookFields(false);
+                    EnableAuthorFields(true);
+                    EnableFinesFields(false);
+                    break;
+                case "Fines":
+                    EnableBookFields(false);
+                    EnableAuthorFields(false);
+                    EnableFinesFields(true);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void FetchDataButton_Click(object sender, EventArgs e)
+        {
+            string selectedTable = TableSelection.SelectedItem.ToString();
+            DataTable data = null;
+
+            switch (selectedTable)
+            {
+                case "Books":
+                    data = GetBookData();
+                    break;
+                case "Authors":
+                    data = GetAuthorData();
+                    break;
+                case "Fines":
+                    data = GetFinesData();
+                    break;
+                default:
+                    MessageBox.Show("Please select a valid table.");
+                    break;
+            }
+
+            ResultsDataGridView.DataSource = data;
+        }
+
+        private DataTable GetBookData()
+        {
+            string query = "SELECT * FROM Books WHERE 1=1";
+            if (!string.IsNullOrEmpty(BookNameTextBox.Text))
+            {
+                query += $" AND BookName = '{BookNameTextBox.Text}'";
+            }
+            if (!string.IsNullOrEmpty(ISBNTextBox.Text))
+            {
+                query += $" AND ISBN = '{ISBNTextBox.Text}'";
+            }
+            if (!string.IsNullOrEmpty(LanguageTextBox.Text))
+            {
+                query += $" AND Language = '{LanguageTextBox.Text}'";
+            }
+            return ExecuteQuery(query);
+        }
+
+        private DataTable GetAuthorData()
+        {
+            string query = "SELECT * FROM Authors WHERE 1=1";
+            if (!string.IsNullOrEmpty(FirstNameTextBox.Text))
+            {
+                query += $" AND FirstName = '{FirstNameTextBox.Text}'";
+            }
+            if (!string.IsNullOrEmpty(LastNameTextBox.Text))
+            {
+                query += $" AND LastName = '{LastNameTextBox.Text}'";
+            }
+            return ExecuteQuery(query);
+        }
+
+      //  private DataTable GetFinesData(){}
+        
+   
+
+        private DataTable ExecuteQuery(string query)
+        {
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        connection.Open();
+                        using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                        {
+                            adapter.Fill(dataTable);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+            }
+
+            return dataTable;
+        }
+  
 }
